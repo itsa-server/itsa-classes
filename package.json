@@ -1,0 +1,49 @@
+{
+    "name": "itsa-classes",
+    "version": "1.0.0",
+    "description": "Using Classes in a very flexible and easy way",
+    "author": [
+        {
+            "name": "Marco Asbreuk",
+            "email": "marco@itsasbreuk.nl"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/itsa-server/itsa-classes"
+    },
+    "bugs": {
+        "url": "https://github.com/itsa-server/itsa-classes/issues"
+    },
+    "keywords": [
+        "itsa",
+        "itsa-server",
+        "itsasbreuk",
+        "itsa-classes"
+    ],
+    "main": "itsa-classes",
+    "engines": {
+        "node": "*"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "chai": "^1.9.1",
+        "istanbul": "^0.3.0",
+        "jshint": "^2.5.5",
+        "mocha": "^1.21.4"
+    },
+    "scripts": {
+        "pretest": "eslint  ./*.js",
+        "test": "mocha tests/*.js  && istanbul cover $(which _mocha) -- tests/*.js",
+        "lint": "eslint ./*.js"
+    },
+    "homepage": "http://itsa.github.io",
+    "maintainers": [
+        {
+            "name": "Marco Asbreuk",
+            "email": "marco@itsasbreuk.nl"
+        }
+    ],
+    "license": "New BSD"
+}
