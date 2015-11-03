@@ -1,6 +1,6 @@
 {
     "name": "itsa-classes",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Using Classes in a very flexible and easy way",
     "author": [
         {
@@ -21,7 +21,7 @@
         "itsasbreuk",
         "itsa-classes"
     ],
-    "main": "itsa-classes",
+    "main": "classes.js",
     "engines": {
         "node": "*"
     },
