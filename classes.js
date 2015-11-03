@@ -1,12 +1,12 @@
 /**
 *
-* Pollyfils for often used functionality for Functions
+* Using Classes in a very flexible and easy way.
+* See http://itsa.io/docs/classes/index.html
 *
-* <i>Copyright (c) 2014 ITSA - https://github.com/itsa</i>
+* <i>Copyright (c) 2015 Itsa-react-server - https://github.com/itsa-server</i>
 * New BSD License - http://choosealicense.com/licenses/bsd-3-clause/
 *
-* @module js-ext
-* @submodule extra/classes.js
+* @module classes
 * @class Classes
 *
 */
