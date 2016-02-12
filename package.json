@@ -1,6 +1,6 @@
 {
     "name": "itsa-classes",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Using Classes in a very flexible and easy way",
     "author": [
         {
@@ -35,7 +35,7 @@
     },
     "scripts": {
         "pretest": "eslint  ./*.js",
-        "test": "mocha tests/*.js  && istanbul cover $(which _mocha) -- tests/*.js",
+        "test": "mocha tests/*.js",
         "lint": "eslint ./*.js"
     },
     "homepage": "http://itsa.github.io",
