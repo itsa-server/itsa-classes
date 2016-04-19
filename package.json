@@ -27,17 +27,17 @@
     },
     "dependencies": {
     },
-    "devDependencies": {
-        "chai": "^1.9.1",
-        "istanbul": "^0.3.0",
-        "jshint": "^2.5.5",
-        "mocha": "^1.21.4"
-    },
-    "scripts": {
-        "pretest": "eslint  ./*.js",
-        "test": "mocha tests/*.js",
-        "lint": "eslint ./*.js"
-    },
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "istanbul": "^0.4.3",
+        "eslint": "^2.7.0",
+        "mocha": "^2.4.5"
+      },
+      "scripts": {
+        "pretest": "eslint  ./lib/*.js",
+        "test": "mocha tests/*.js  && istanbul cover $(which _mocha) -- tests/*.js",
+        "lint": "eslint ./lib/*.js"
+      },
     "homepage": "http://itsa.github.io",
     "maintainers": [
         {
